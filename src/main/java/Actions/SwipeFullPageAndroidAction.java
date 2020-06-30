@@ -9,7 +9,7 @@ import io.testproject.java.sdk.v2.enums.ExecutionResult;
 import io.testproject.java.sdk.v2.exceptions.FailureException;
 import org.openqa.selenium.Dimension;
 
-@Action(name = "Swipe full page down/up PIXEL 2", description = "Swipe entire screen page either up or down")
+@Action(name = "Swipe full page down/up", description = "Swipe entire screen page either up or down")
 public class SwipeFullPageAndroidAction implements AndroidAction {
 
     @Parameter(description = "The duration of the swipe in milliseconds", direction = ParameterDirection.INPUT, defaultValue = "1000")

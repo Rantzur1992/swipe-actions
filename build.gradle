@@ -45,5 +45,4 @@ jar {
 
 dependencies {
     tpsdk files("${TP_SDK}")
-    compile files('lib/ADB-Wrapper.proxy.jar')
 }
